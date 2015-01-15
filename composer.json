@@ -1,0 +1,40 @@
+{
+    "name": "jamesryanbell/dinopass",
+    "description": "A very simple wrapper for the Dinopass password generator API",
+    "keywords": [
+        "dinopass",
+        "password",
+        "security",
+        "api"
+    ],
+    "homepage": "https://github.com/jamesryanbell/dinopass",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Bell",
+            "email": "james@james-bell.co.uk",
+            "homepage": "http://james-bel.co.uk"
+        }
+    ],
+    "require": {
+        "php" : ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JamesRyanBell\\Dinopass\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JamesRyanBell\\Dinopass\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
