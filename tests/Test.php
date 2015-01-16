@@ -9,11 +9,13 @@ class Test extends \PHPUnit_Framework_TestCase
 
     public function testSimple()
     {
-        $this->assertTrue(!empty(Password::simple()), 'Empty string returned');
+    	$password = Password::simple();
+        $this->assertTrue(!empty($password), 'Empty string returned');
     }
 
     public function testStrong()
     {
-        $this->assertTrue(!empty(Password::strong()), 'Empty string returned');
+    	$password = Password::strong();
+        $this->assertTrue(!empty($password), 'Empty string returned');
     }
 }
