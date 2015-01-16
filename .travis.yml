@@ -13,7 +13,7 @@ before_script:
 
 script:
   - phpunit --coverage-text --coverage-clover=coverage.clover
-    - mkdir -p build/logs
+  - mkdir -p build/logs
   - phpunit --coverage-clover build/logs/clover.xml
 
 after_script:
