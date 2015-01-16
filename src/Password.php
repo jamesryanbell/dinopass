@@ -1,8 +1,8 @@
 <?php
 
-namespace JamesRyanBell;
+namespace JamesRyanBell\Dinopass;
 
-class Dinopass
+class Password
 {
     public function strong() {
         return trim(file_get_contents('http://www.dinopass.com/password/strong'));
